@@ -6,7 +6,7 @@ generator = pipeline(
 )
 
 result = generator(
-    "Hiiiiiiiii My name is Shruthi",
+    "Hello, I'm Srividhya",
     max_new_tokens=50,         # Controls generated length past your prompt
     num_return_sequences=2,    # Generates 2 sequences
     do_sample=True,             # Required when num_return_sequences > 1
